@@ -1,17 +1,12 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 
+
 int main(){
-	int n;
-	cin >> n;
-	if(n % 2 != 0)
-	{
-		printf("The result is not divisible by 2");
-	}
-	else
-	{
-		printf("The result is divisible by 2");
-	}
+    int n;
+    cout<<"Enter number: "; cin>>n;
+    if(n%2==0) cout<<n<<" is even";
+    else cout<<n<<" is odd";
+
 return 0;
 }
